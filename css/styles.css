@@ -1,0 +1,139 @@
+/*   #region common   */
+
+/*   defaul text   */
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 2%;
+  line-height: 1.5;
+}
+/*   defaul headers h2  */
+.features-header,
+.team-header,
+.portfolio-header {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11111;
+  text-align: center;
+  color: #2e2f42;
+}
+/*   defaul headers h3  */
+.features-item-header,
+.team-item-header,
+.portfolio-item-header {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+/*   #endregion   */
+
+/*   #region header   */
+.logo {
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.16667;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #2e2f42;
+}
+
+.logo .accent-text,
+.footer .accent-text {
+  color: #4d5ae5;
+}
+
+.navigation-item-link {
+  color: #2e2f42;
+  text-decoration: none;
+}
+.contacts-item-link {
+  color: #434455;
+  text-decoration: none;
+}
+.navigation-item,
+.contacts-list-item,
+.features-list-item,
+.team-list-item,
+.portfolio-list-item {
+  list-style-type: none;
+}
+/*   #endregion   */
+
+/*   #region main > hero  */
+.hero-header {
+  background-color: #2e2f42;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07143;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #ffffff;
+}
+.hero-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  background-color: #4d5ae5;
+  color: #ffffff;
+}
+/*   #endregion   */
+
+/*   #region main > features  */
+.features-header {
+  /* listed in common style->headers h2 */
+}
+.features-item-header {
+  /* listed in common style->headers h3 */
+}
+.features-item-text {
+  /* listed in common style  */
+}
+/*   #endregion   */
+
+/*   #region main > team  */
+.team-header {
+  /* listed in common style->headers h2 */
+  /*                +                   */
+  background-color: #f4f4fd;
+}
+.team-item-header {
+  /* listed in common style->headers h3 */
+}
+.team-item-text {
+  /* listed in common style  */
+}
+/*   #endregion   */
+
+/*   #region main > portfolio  */
+.portfolio-header {
+  /* listed in common style->headers h2 */
+}
+.portfolio-item-header {
+  /* listed in common style->headers h3 */
+}
+.portfolio-item-text {
+  /* listed in common style  */
+}
+/*   #endregion   */
+
+/*   #region footer   */
+.footer-link {
+  text-decoration: none;
+  color: #f4f4fd;
+  background-color: #2e2f42;
+}
+.accent-text {
+}
+.footer-text {
+  color: #f4f4fd;
+  background-color: #2e2f42;
+}
+/*   #endregion   */
