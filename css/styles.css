@@ -7,7 +7,7 @@ body {
   background-color: #ffffff;
   font-size: 16px;
   font-weight: 400;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   line-height: 1.5;
 }
 /*   defaul headers h2  */
@@ -17,7 +17,6 @@ body {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11111;
-  text-align: center;
   color: #2e2f42;
 }
 /*   defaul headers h3  */
@@ -50,12 +49,21 @@ body {
 }
 
 .navigation-item-link {
+  font-weight: 500;
   color: #2e2f42;
+
   text-decoration: none;
 }
 .contacts-item-link {
   color: #434455;
+  font-style: normal;
   text-decoration: none;
+}
+.navigation-item-link:hover,
+.navigation-item-link:focus,
+.contacts-item-link:hover,
+.contacts-item-link:focus {
+  color: #404bbf;
 }
 .navigation-item,
 .contacts-list-item,
@@ -67,8 +75,10 @@ body {
 /*   #endregion   */
 
 /*   #region main > hero  */
-.hero-header {
+.hero {
   background-color: #2e2f42;
+}
+.hero-header {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07143;
@@ -84,6 +94,15 @@ body {
   background-color: #4d5ae5;
   color: #ffffff;
 }
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: #404bbf;
+  cursor: pointer;
+}
+/*    
+#studio:active {
+  color: red;
+}                      */
 /*   #endregion   */
 
 /*   #region main > features  */
@@ -99,22 +118,27 @@ body {
 /*   #endregion   */
 
 /*   #region main > team  */
-.team-header {
-  /* listed in common style->headers h2 */
-  /*                +                   */
+.team {
   background-color: #f4f4fd;
 }
-.team-item-header {
-  /* listed in common style->headers h3 */
+.team-list-item {
+  background-color: white;
 }
+.team-item-header,
 .team-item-text {
-  /* listed in common style  */
+  /* listed in common style->headers h3 */
+  text-align: center;
+  background-color: white;
+}
+.team-header {
+  text-align: center;
 }
 /*   #endregion   */
 
 /*   #region main > portfolio  */
 .portfolio-header {
   /* listed in common style->headers h2 */
+  text-align: center;
 }
 .portfolio-item-header {
   /* listed in common style->headers h3 */
@@ -125,15 +149,14 @@ body {
 /*   #endregion   */
 
 /*   #region footer   */
+.footer {
+  background-color: #2e2f42;
+}
 .footer-link {
   text-decoration: none;
   color: #f4f4fd;
-  background-color: #2e2f42;
-}
-.accent-text {
 }
 .footer-text {
   color: #f4f4fd;
-  background-color: #2e2f42;
 }
 /*   #endregion   */
