@@ -37,7 +37,8 @@ ol {
 /*   #endregion   */
 
 /*   #region header   */
-.logo {
+.logo,
+.footer-link {
   text-decoration: none;
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -127,7 +128,6 @@ ol {
 .team-item-text {
   /* listed in common style->headers h3 */
   text-align: center;
-  background-color: white;
 }
 .team-header {
   text-align: center;
@@ -152,7 +152,6 @@ ol {
   background-color: #2e2f42;
 }
 .footer-link {
-  text-decoration: none;
   color: #f4f4fd;
 }
 .footer-text {
