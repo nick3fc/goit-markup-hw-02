@@ -10,7 +10,12 @@ body {
   letter-spacing: 0.02em;
   line-height: 1.5;
 }
-/*   defaul headers h2  */
+/*   defaul list format   */
+ul,
+ol {
+  list-style-type: none;
+}
+/*   defaul headers h2 format */
 .features-header,
 .team-header,
 .portfolio-header {
@@ -19,7 +24,7 @@ body {
   line-height: 1.11111;
   color: #2e2f42;
 }
-/*   defaul headers h3  */
+/*   defaul headers h3 format */
 .features-item-header,
 .team-item-header,
 .portfolio-item-header {
@@ -65,13 +70,7 @@ body {
 .contacts-item-link:focus {
   color: #404bbf;
 }
-.navigation-item,
-.contacts-list-item,
-.features-list-item,
-.team-list-item,
-.portfolio-list-item {
-  list-style-type: none;
-}
+
 /*   #endregion   */
 
 /*   #region main > hero  */
