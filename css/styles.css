@@ -21,6 +21,7 @@ ol {
 .portfolio-header {
   font-weight: 700;
   font-size: 36px;
+  letter-spacing: 0.02em; /* мене заставили написати цей рядок */
   line-height: 1.11111;
   color: #2e2f42;
 }
@@ -60,6 +61,7 @@ ol {
 
   text-decoration: none;
 }
+
 .contacts-item-link {
   color: #434455;
   font-style: normal;
